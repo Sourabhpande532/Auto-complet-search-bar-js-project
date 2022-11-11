@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Autocomplete Search Box | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="search-box">
+        <h1>Autocomplete Search bar</h1>
+        <div class="search-input">
+            <!-- <a href="" target="_blank" hidden></a> -->
+            <input type="text" placeholder="Search your favourite Youtubers" onkeyup="searchYoutubers()"
+                onclick="removes()" id="userInputField" name="">
+            <div class="autocom-box">
+                <!-- here list are inserted from javascript -->
+                <ul id="ul" style="display: none;">
+                    <li><a href="https://youtu.be/7XDeI5fyj3w">hitesh Choudhari</a></li>
+                    <li><a href="https://www.thapatechnical.com/">thapa Thechnical</a></li>
+                    <li><a href="https://www.codewithharry.com/">code With Harry</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=lolnibWPPss">Yahoo baba</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=vHZiluB5RRo">vishwas</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=dACbZkSH_UU">ranveer Alabadia</a></li>
+                    <li><a href="https://www.google.co.in/">google</a></li>
+                    <li><a href="https://www.google.co.in/">google</a></li>
+                    <li><a href="https://www.google.co.in/">google</a></li>
+                    <li><a href="https://www.google.co.in/">google</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
